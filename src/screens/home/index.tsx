@@ -45,7 +45,7 @@ export const Home: React.FC = () => {
     <Background>
       <View style={styles.header}>
         <Profile />
-        <ButtonSearch onPress={() => {}} />
+        <ButtonSearch onPress={() => navigation.navigate('Search')} />
       </View>
       <CategorySelect
         categorySelected={category}
