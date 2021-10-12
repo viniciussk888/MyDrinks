@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useCallback} from 'react';
 import {View, FlatList, Text, TouchableOpacity, Alert} from 'react-native';
+import {useNavigation} from '@react-navigation/native';
 
 import {CategorySelect} from '../../components/CategorySelect';
 import {ListDivider} from '../../components/ListDivider';
@@ -16,6 +17,7 @@ import {DrinksType} from './Types/getDrinksByCategorieTypes';
 import {styles} from './styles';
 
 export const Home: React.FC = () => {
+  const navigation = useNavigation();
   const [loading, setLoading] = useState(false);
   const [drinks, setDrinks] = useState<Array<DrinksType>>([]);
   const [category, setCategory] = useState('Ordinary Drink');
@@ -58,7 +60,14 @@ export const Home: React.FC = () => {
           <FlatList
             data={drinks}
             keyExtractor={item => item.idDrink}
-            renderItem={({item}) => <Drinks data={item} onPress={() => {}} />}
+            renderItem={({item}) => (
+              <Drinks
+                data={item}
+                onPress={() =>
+                  navigation.navigate('Drink', {drinkId: item.idDrink})
+                }
+              />
+            )}
             ItemSeparatorComponent={() => <ListDivider />}
             contentContainerStyle={{paddingBottom: 69}}
             style={styles.matches}
