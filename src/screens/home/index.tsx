@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useCallback} from 'react';
-import {View, FlatList, Text, TouchableOpacity, Alert} from 'react-native';
+import {View, FlatList} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
 import {CategorySelect} from '../../components/CategorySelect';

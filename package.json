@@ -23,12 +23,14 @@
     "react-native-linear-gradient": "^2.5.6",
     "react-native-safe-area-context": "^3.3.2",
     "react-native-vector-icons": "^8.1.0",
-    "react-navigation": "^4.4.4"
+    "react-navigation": "^4.4.4",
+    "ts-jest": "^27.0.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@testing-library/react-native": "^7.2.0",
     "@types/jest": "^26.0.23",
     "@types/react-native": "^0.65.0",
     "@types/react-test-renderer": "^17.0.1",
@@ -36,7 +38,7 @@
     "eslint": "^7.14.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.66.2",
-    "react-test-renderer": "17.0.2",
+    "react-test-renderer": "^17.0.2",
     "typescript": "^3.8.3"
   },
   "resolutions": {
@@ -53,7 +55,9 @@
       "node"
     ]
   },
-  "rnpm":{
-    "assets":["./assets/fonts/"]
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
   }
 }
