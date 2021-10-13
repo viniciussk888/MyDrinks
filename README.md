@@ -15,10 +15,10 @@ react-navigation
 
 ![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![ReactNative](https://img.shields.io/badge/-ReactNative-black?style=flat-square&logo=reactnative)
+![ReactNative](https://img.shields.io/badge/-ReactNative-black?style=flat-square&logo=react)
 ![ReactTestingLibrary](https://img.shields.io/badge/-ReactTestingLibrary-black?style=flat-square&logo=react)
 ![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)
 
 ## 🆙 Demo
 
-<img src="https://user-images.githubusercontent.com/30902898/137135870-d0ab631e-f494-4025-85b2-eb2e92eb145e.gif" width="800px">
+<img src="https://user-images.githubusercontent.com/30902898/137135870-d0ab631e-f494-4025-85b2-eb2e92eb145e.gif" width="400px">
