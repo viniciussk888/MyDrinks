@@ -5,11 +5,11 @@ Este App foi desenvolvido como teste para vaga de desenvolvedor frontend na Mazz
 O App filtra e mostra alguns drinks e detalhes de drinks, disponiveis na API thecocktaildb (https://www.thecocktaildb.com/api.php).
 
 Algumas bibliotecas utilizadas:
-Axios
-lottie-react-native
-react-native-linear-gradient
-react-native-vector-icons
-react-navigation
+Axios,
+lottie-react-native,
+react-native-linear-gradient,
+react-native-vector-icons,
+react-navigation.
 
 ## ⚡ Tecnologias utilizadas
 
