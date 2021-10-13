@@ -1,5 +1,4 @@
 import {StyleSheet} from 'react-native';
-import {getBottomSpace} from 'react-native-iphone-x-helper';
 import {theme} from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
@@ -9,6 +8,8 @@ export const styles = StyleSheet.create({
     marginTop: 10,
     width: '95%',
     backgroundColor: 'white',
+    borderRadius: 8,
+    fontFamily: theme.fonts.text500,
   },
   matches: {
     marginTop: 24,

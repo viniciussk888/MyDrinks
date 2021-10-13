@@ -38,7 +38,9 @@ export function CategorySelect({
       showsHorizontalScrollIndicator={false}
       contentContainerStyle={{paddingRight: 40}}>
       {categories.map(category => (
-        <TouchableOpacity onPress={() => setCategory(category.strCategory)}>
+        <TouchableOpacity
+          key={category.strCategory}
+          onPress={() => setCategory(category.strCategory)}>
           <LinearGradient
             style={styles.container}
             colors={[secondary50, secondary70]}>

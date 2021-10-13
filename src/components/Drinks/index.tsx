@@ -31,6 +31,12 @@ export function Drinks({data, ...props}: Props) {
             <Text style={styles.title}>{data.strDrink}</Text>
             <Text style={styles.id}>{data.idDrink}</Text>
           </View>
+
+          <View style={styles.footer}>
+            <View style={styles.info}>
+              <Text style={styles.infoText}>TOQUE PARA VER DETALHES</Text>
+            </View>
+          </View>
         </View>
       </View>
     </RectButton>

@@ -7,7 +7,7 @@ type Params = {
 
 export const searchdrinks = async ({text}: Params) => {
   try {
-    const {data} = await api.get<SearchDrinksResponse>(`search.php?f=${text}`);
+    const {data} = await api.get<SearchDrinksResponse>(`search.php?s=${text}`);
 
     const {drinks} = data;
 

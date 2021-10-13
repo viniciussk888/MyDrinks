@@ -35,4 +35,19 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     marginRight: 20,
   },
+  footer: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  info: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  infoText: {
+    fontFamily: theme.fonts.text500,
+    color: theme.colors.heading,
+    fontSize: 13,
+    marginLeft: 7,
+  },
 });
