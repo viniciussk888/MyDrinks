@@ -21,4 +21,4 @@ react-navigation
 
 ## 🆙 Demo
 
-<img src="https://user-images.githubusercontent.com/30902898/137135870-d0ab631e-f494-4025-85b2-eb2e92eb145e.gif" width="400px">
+<img src="https://user-images.githubusercontent.com/30902898/137135870-d0ab631e-f494-4025-85b2-eb2e92eb145e.gif" width="250px">
