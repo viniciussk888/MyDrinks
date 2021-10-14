@@ -11,13 +11,13 @@ export const styles = StyleSheet.create({
   },
   greeting: {
     fontFamily: theme.fonts.title500,
-    fontSize: 24,
+    fontSize: 22,
     color: theme.colors.heading,
     marginRight: 6,
   },
-  username: {
+  wellcome: {
     fontFamily: theme.fonts.title700,
-    fontSize: 24,
+    fontSize: 22,
     color: theme.colors.heading,
   },
   message: {

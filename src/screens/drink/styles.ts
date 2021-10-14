@@ -1,5 +1,4 @@
 import {StyleSheet} from 'react-native';
-import {getBottomSpace} from 'react-native-iphone-x-helper';
 import {theme} from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
@@ -26,5 +25,18 @@ export const styles = StyleSheet.create({
     fontFamily: theme.fonts.text400,
     color: theme.colors.heading,
     lineHeight: 21,
+  },
+  container: {
+    height: 48,
+    width: 48,
+    borderRadius: 8,
+    backgroundColor: theme.colors.primary,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  titleContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
   },
 });

@@ -3,6 +3,7 @@ export interface DrinkType {
   strDrinkThumb: string;
   strInstructions: string;
   strCategory: string;
+  idDrink: string;
 }
 
 export interface GetDrinkResponse {

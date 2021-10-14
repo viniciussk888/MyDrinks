@@ -18,7 +18,7 @@ export function Profile() {
       <View>
         <View style={styles.user}>
           <Text style={styles.greeting}>Olá,</Text>
-          <Text style={styles.username}>seja bem-vindo</Text>
+          <Text style={styles.wellcome}>seja bem-vindo</Text>
         </View>
         <Text style={styles.message}>{getMessage}</Text>
       </View>

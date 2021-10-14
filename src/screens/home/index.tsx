@@ -9,6 +9,7 @@ import {ListHeader} from '../../components/ListHeader';
 import {Profile} from '../../components/Profile';
 import {Load} from '../../components/Load';
 import {ButtonSearch} from '../../components/ButtonSearch';
+import {ButtonFavorites} from '../../components/ButtonFavorites';
 import {Drinks} from '../../components/Drinks';
 
 import {getDrinksByCategories} from './Services/getDrinksByCategorie';
@@ -46,6 +47,7 @@ export const Home: React.FC = () => {
       <View style={styles.header}>
         <Profile />
         <ButtonSearch onPress={() => navigation.navigate('Search')} />
+        <ButtonFavorites onPress={() => navigation.navigate('Favorites')} />
       </View>
       <CategorySelect
         categorySelected={category}

@@ -7,6 +7,7 @@ import {Home} from '../screens/home';
 import {Drink} from '../screens/drink';
 import {Search} from '../screens/search';
 import {Splash} from '../screens/splash';
+import {Favorites} from '../screens/favorites';
 
 const Stack = createStackNavigator();
 
@@ -22,6 +23,7 @@ export default function MainStack() {
       <Stack.Screen name="Drink" component={Drink} />
       <Stack.Screen name="Search" component={Search} />
       <Stack.Screen name="Splash" component={Splash} />
+      <Stack.Screen name="Favorites" component={Favorites} />
     </Stack.Navigator>
   );
 }
