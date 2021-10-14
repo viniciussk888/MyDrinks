@@ -10,6 +10,7 @@ export const styles = StyleSheet.create({
     backgroundColor: 'white',
     borderRadius: 8,
     fontFamily: theme.fonts.text500,
+    color: theme.colors.primary,
   },
   matches: {
     marginTop: 24,
